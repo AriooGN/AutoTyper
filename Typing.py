@@ -61,6 +61,10 @@ def adjust_typing_speed(wpm):
     global typing_speed
     words_per_minute = int(wpm)
     typing_speed = 60 / (words_per_minute * 5)  # based on the standard definition of wpm
+    
+def Update_slider(wpm):
+    adjust_typing_speed(wpm)
+    WPM_label.configure(text =str(wpm) +" (WPM)")
 
 customtkinter.set_appearance_mode("system")
 customtkinter.set_default_color_theme("green")
@@ -92,9 +96,14 @@ Clear_button.grid(row=1, column=2, padx=1, pady=10)
 # Typing speed slider
 speed_label = Label(my_labelframe, text="Typing Speed (WPM):")
 speed_label.grid(row=2, column=0)
-speed_scale = Scale(my_labelframe, from_=10, to=120, resolution=5, orient=HORIZONTAL, command=adjust_typing_speed)
+speed_scale = customtkinter.CTkSlider(my_labelframe, number_of_steps=5,from_=10, to=120, orientation=HORIZONTAL, command=Update_slider)
 speed_scale.set(words_per_minute)
 speed_scale.grid(row=2, column=1)
+
+# Displayed Typing speed
+WPM_label = Label(my_labelframe, text= str(0) +" (WPM)")
+WPM_label.grid(row=2, column=2)
+
 
 # Human typing mode toggle
 human_mode_toggle = Checkbutton(my_labelframe, text="Human Typing Mode", variable=human_mode)
