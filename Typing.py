@@ -96,12 +96,12 @@ Clear_button.grid(row=1, column=2, padx=1, pady=10)
 # Typing speed slider
 speed_label = Label(my_labelframe, text="Typing Speed (WPM):")
 speed_label.grid(row=2, column=0)
-speed_scale = customtkinter.CTkSlider(my_labelframe, number_of_steps=5,from_=10, to=120, orientation=HORIZONTAL, command=Update_slider)
+speed_scale = customtkinter.CTkSlider(my_labelframe, number_of_steps=22,from_=10, to=120, orientation=HORIZONTAL, command=Update_slider)
 speed_scale.set(words_per_minute)
 speed_scale.grid(row=2, column=1)
 
 # Displayed Typing speed
-WPM_label = Label(my_labelframe, text= str(0) +" (WPM)")
+WPM_label = Label(my_labelframe, text= str(words_per_minute) +" (WPM)")
 WPM_label.grid(row=2, column=2)
 
 
