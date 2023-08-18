@@ -1,6 +1,6 @@
 <h1>AutoTyper - Realistic Typing Simulation Tool</h1>
 
-AutoTyper is a sophisticated typing simulation tool developed in Python, designed to emulate human-like typing patterns. With the integration of advanced modules such as [**customtkinter**](https://pypi.org/project/customtkinter/0.3/) for a user-friendly GUI and [**pyautogui**](https://pyautogui.readthedocs.io/en/latest/) for simulating typing patterns, AutoTyper is a versatile solution for various applications requiring automated yet realistic text entry.
+AutoTyper is a sophisticated typing simulation tool developed in Python, designed to emulate human-like typing patterns. With the integration of advanced modules such as [**customtkinter**](https://pypi.org/project/customtkinter/0.3/) for a user-friendly GUI and [**PyAutoGUI**](https://pyautogui.readthedocs.io/en/latest/) for simulating typing patterns, AutoTyper is a versatile solution for various applications requiring automated yet realistic text entry.
 
 <h2>Features</h2>
 
