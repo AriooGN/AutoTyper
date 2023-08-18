@@ -10,4 +10,6 @@ The visual interface of AutoTyper is an embodiment of sophistication, courtesy o
 
 In essence, AutoTyper stands as a versatile epitome of technological finesse, catering to a plethora of applications. Its capability to replicate an array of typing patterns, with an exceptional degree of malleability, makes it indispensable for testing, showcasing typing-related software, or any niche demanding automated yet organically human text input. AutoTyper
 
+<hr style="width:80%" color="white">
+<h3> Demonstration Video available below:</h3>
 <div align="center"> <a href="https://www.youtube.com/watch?v=ERuKSWwM9pU"> <img src="https://github-production-user-asset-6210df.s3.amazonaws.com/124407027/261704962-9b684f70-dc2b-41f4-a208-80e5bdf00da0.png" style="width:100%;"> </a> </div>
