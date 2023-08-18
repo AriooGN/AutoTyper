@@ -1,15 +1,18 @@
-# AutoTyper
+<h1>AutoTyper - Realistic Typing Simulation Tool</h1>
 
-Unveiling AutoTyper, an intricately engineered typing simulation marvel meticulously crafted using Python's prowess. This ingenious endeavor seamlessly integrates cutting-edge modules like [customtkinter](https://pypi.org/project/customtkinter/0.3/) to curate an interface that's not only user-centric but also aesthetically advanced, while [pyautogui](https://pyautogui.readthedocs.io/en/latest/) breathes life into authentic keystroke patterns.
+AutoTyper is a sophisticated typing simulation tool developed in Python, designed to emulate human-like typing patterns. With the integration of advanced modules such as [**customtkinter**](https://pypi.org/project/customtkinter/0.3/) for a user-friendly GUI and [**pyautogui**](https://pyautogui.readthedocs.io/en/latest/) for simulating typing patterns, AutoTyper is a versatile solution for various applications requiring automated yet realistic text entry.
 
-AutoTyper represents an ingenious amalgamation of typing dynamics, gracefully synchronizing diverse typing speeds and sporadic pauses reminiscent of human behavior. At its core, AutoTyper harnesses the power of randomness, injecting these calculated fluctuations between characters and words, thereby imbuing the simulation with a lifelike veracity.
+<h2>Features</h2>
 
-A standout feature is the 'Human Typing Mode', artfully infusing the essence of organic human keystrokes with even larger variation in typing speeds
+**Realistic Typing Simulation:** AutoTyper leverages random number generation to introduce variability, imitating human typing speed and pauses, resulting in authentic typing patterns.    
 
-The visual interface of AutoTyper is an embodiment of sophistication, courtesy of 'customtkinter'. This bespoke styling toolkit elevates the UI aesthetics, boasting an expansive text arena and intuitive controls for initializing or halting the typewriting symphony. An interactive slider empowers users to effortlessly orchestrate typing speed, crafting an intuitive experience.
+**Human Typing Mode:** This mode adds an extra layer of realism by introducing natural irregularities found in human typing.
 
-In essence, AutoTyper stands as a versatile epitome of technological finesse, catering to a plethora of applications. Its capability to replicate an array of typing patterns, with an exceptional degree of malleability, makes it indispensable for testing, showcasing typing-related software, or any niche demanding automated yet organically human text input. AutoTyper
+**Customizable User Interface:** Built with **customtkinter**, AutoTyper offers a sleek and modern interface, complete with text entry area and interactive controls for starting and stopping typing simulations.  
 
-<hr style="width:80%" color="white">
+**Variable Speeds:** Users can adjust the typing speed in words per minute (WPM) using an interactive slider, catering to different scenarios and needs.    
+
+**Easy-to-Use:** With a simple and intuitive design, AutoTyper requires minimal setup. Just launch the application, adjust settings, and start the simulation.  
+
 <h2> Demonstration Video available below:</h2>
 <div align="center"> <a href="https://www.youtube.com/watch?v=ERuKSWwM9pU"> <img src="https://github-production-user-asset-6210df.s3.amazonaws.com/124407027/261704962-9b684f70-dc2b-41f4-a208-80e5bdf00da0.png" style="width:100%;"> </a> </div>
